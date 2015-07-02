@@ -1,12 +1,16 @@
 # Keflux
 
-**Keflux** is a library that allows to use [event streams][] to build a [Flux][]
-architecture in a front-end [React][] app.  It uses [Kefir][] for all
-FRP-related code, and as part of the library name.
+**Keflux** is a library that allows to use [event streams][] to build a
+[Flux][] architecture in a front-end [React][] app.  It uses [Kefir][] for all
+FRP-related code, and as part of the library name.  It also embraces the use of
+[immutable][] data structures, as an integral part of how it is designed, and
+how it works.
 
 [event streams]: https://en.wikipedia.org/wiki/Functional_reactive_programming
 [Flux]: https://facebook.github.io/flux/
 [React]: https://facebook.github.io/react/
+[Kefir]: https://rpominov.github.io/kefir/
+[immutable]: https://facebook.github.io/immutable-js/
 
 ## Stores
 
@@ -153,6 +157,7 @@ contexts][] to implicitly pass stores to child components.
 
 This is a list of features that have not been explored or implemented yet.
 
+* Automated tests.
 * How does error handling fits with this architecture.
 * Mixin for easing the access to stores/actions in components via [React.js' contexts][].
 * Registering callbacks to handle action completion.
