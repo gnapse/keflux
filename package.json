@@ -1,0 +1,30 @@
+{
+  "name": "keflux",
+  "version": "0.0.1",
+  "description": "Flux workflow using Kefir's FRP streams",
+  "author": "Ernesto García <gnapse@gmail.com>",
+  "homepage": "https://github.com/gnapse/keflux#readme",
+  "license": "MIT",
+  "main": "lib/keflux.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnapse/keflux.git"
+  },
+  "keywords": [
+    "flux",
+    "react",
+    "kefir",
+    "RxJs",
+    "frp"
+  ],
+  "bugs": {
+    "url": "https://github.com/gnapse/keflux/issues"
+  },
+  "dependencies": {
+    "immutable": "^3.7.4",
+    "kefir": "^2.7.0"
+  }
+}
